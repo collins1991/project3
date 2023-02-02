@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+
+
+
+}
+body {
+    background-color: rgb(72, 90, 84);
+    /* @font-face 
+        font-family: 'Roboto';
+        src: url('Roboto-ThinItalic-webfont.eot');
+        src: url('Roboto-ThinItalic-webfont.eot?#iefix') format('embedded-opentype'),
+             url('Roboto-ThinItalic-webfont.woff') format('woff'),
+             url('Roboto-ThinItalic-webfont.ttf') format('truetype'),
+             url('Roboto-ThinItalic-webfont.svg#RobotoThinItalic') format('svg'); (under the Apache Software License). 
+        font-weight: 200;
+        font-style: bold; */
+    
+}
+nav{
+    background: #74838f;
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color: white;
+    font-size:35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display:inline-block;
+    line-height: 80px;
+    margin:0;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.active,a.hover{
+    background:#1b9bff;
+    transition: 5s;
+}
+img{
+    height: 450px;
+    margin-left: 50%;
+    margin-top:-10%;
+
+}
+.content{
+    position: relative;
+    left: 80px;
+    top: 100px;
+}
